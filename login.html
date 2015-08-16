@@ -1,0 +1,57 @@
+<!--login modal-->
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <style type="text/css">
+   .logo{
+    margin: auto;
+   }
+   .modal-footer{
+    padding: 15px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
+   }
+   .body{
+    font-color:#757575 !important;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:"DroidSerif-Regular", Georgia, Times, serif;
+   }
+   .employeenote{
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+   }
+
+  </style>
+</head>
+<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+         <img class="img-responsive logo" src="./image/MAP_Logo_AuthenticationScreen.png">
+          <div class="employeenote">Please note that this is a testing site and can only be accessed by MAP employees.Sending the password or accessing the site by anyone outside MAP is prohibited.</div>
+          <h1 class="text-center">Login</h1>
+      </div>
+      <div class="modal-body">
+          <form class="form col-md-12 center-block">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control input-lg" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-12">
+          <!-- <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button> -->
+		  </div>	
+      </div>
+  </div>
+  </div>
+</div>
+</html>
